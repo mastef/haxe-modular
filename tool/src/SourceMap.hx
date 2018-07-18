@@ -33,7 +33,7 @@ typedef DecodedSourceMapFile = {
 	mappings:Array<LineMapping>
 }
 
-@:jsRequire('fast-source-map')
+@:jsRequire('@elsassph/fast-source-map')
 extern class SM {
 	public static function decode(map:SourceMapFile):DecodedSourceMapFile;
 	public static function decodeFile(path:String):DecodedSourceMapFile;

@@ -1316,7 +1316,7 @@ Reflect.fields = function(o) {
 	}
 	return a;
 };
-var SM = require("fast-source-map");
+var SM = require("@elsassph/fast-source-map");
 var SourceMap = function(input,src) {
 	var p = src.lastIndexOf("//# sourceMappingURL=");
 	if(p < 0) {
